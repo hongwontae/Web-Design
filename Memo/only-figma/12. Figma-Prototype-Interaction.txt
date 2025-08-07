@@ -55,3 +55,13 @@
     => 새로운 오버레이를 원하는 프레임에 띄우는 동작입니다.
     2. swap Overlay
     => 1의 오버레이를 교체하는 동작입니다. (위치를 동일하게)
+    3. Overlay Option
+        3-1. Close when clicking outside
+        => 오버레이 외부를 클릭하면 오버레이가 사라집니다.
+        3-2. Background
+        => 오버레이를 제외한 화면을 불투명색으로 바꿉니다.
+    4. Scroll to
+    => trigger가 발생되면 원하는 원하는 공간(프레임)으로 이동하는 기능입니다.
+    5. Open Link
+    => trigger가 발생되면 링크를 따라 이동하는 기능입니다.
+    6. back
