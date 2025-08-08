@@ -64,4 +64,9 @@
     => trigger가 발생되면 원하는 원하는 공간(프레임)으로 이동하는 기능입니다.
     5. Open Link
     => trigger가 발생되면 링크를 따라 이동하는 기능입니다.
-    6. back
+    6. Close Overlay
+    => Overlay를 닫는 Action입니다.
+    7. Back
+    => Destination에서 Hotspot으로 이동하는 기능입니다.
+
+    
