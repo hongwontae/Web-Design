@@ -1,0 +1,29 @@
+1. space between
+1-1. 프레임 내부에 요소가 두 개가 존재하면 양쪽 끝에 객체를 두는 방식
+=> gap을 auto을 주면 됩니다.
+1-.2 프레임 내부에 두 개 이상일 떄 gap auto라면 나머지 여백을 균일하게 가집니다.
+
+
+2. auto layout를 적용하면 요소의 gap을 항상 지킵니다.
+=> 즉, 요소가 반응형으로 넓어지거나 좁아져도 gap을 지켜서 한 요소가 다른 요소를 덮지 않습니다.
+
+
+3. 스크롤 개념
+3-1. 프레임 내부의 콘텐츠를 대상만 스크롤의 대상이 됩니다.
+3-2. 콘텐츠가 프레임보다 커야 합니다.
+=> 그렇지 않으면 for scrolling to work on this frame, the content needs to be bigger than the frame
+3-3. 프레임의 prototype의 Scroll Behavior를 설정해야 합니다.
+=> vertical or horizontal or Both or No Scroll
+3-4. 프레임을 scroll 설정하고 컨텐츠를 고정하고 싶다면 컨텐츠의 
+ prototype에서 Fix position when scrolling을 설정해야 합니다.
+
+
+
+4. Detach instance
+=> 컴포넌트에 속한 요소가 아니게 된다.
+
+
+5. Type Scale
+5-1. 글자 크기를 일정한 비율로 체계화한 시스템입니다.
+5-2. ex) 본문 텍스트는 16px, 큰 제목은 32px.. 일정한 배율을 적용하는 방식입니다.
+5-3. Figma에서 typescales 플러그인을 설치하여 사용할 수 있습니다.
